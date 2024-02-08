@@ -1,0 +1,346 @@
+[
+    {
+        "id": 1,
+        "title": "Specialized Rockhopper Comp 29 - Naranja",
+        "description": "la Rockhopper Comp 29 tiene un nuevo cuadro de aluminio A1 Premium, horquilla SR Suntour XCM, ruedas Stout, frenos de disco Shimano y cambio trasero MicroShift 1x9.",
+        "price": 639.69,
+        "rating": 4.10,
+        "stock": 4,
+        "brand": "SPECIALIZED",
+        "category": "bicicleta-enduro",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/rock-comp-29-ara_1800x1800.jpg?v=1706095785",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/rock-comp-29-ara-3_1800x1800.jpg?v=1706095791",
+            "https://www.all4cycling.com/cdn/shop/files/rock-comp-29-ara-4_1800x1800.jpg?v=1706095791",
+            "https://www.all4cycling.com/cdn/shop/files/rock-comp-29-ara-6_1800x1800.jpg?v=1706095791",
+            "https://www.all4cycling.com/cdn/shop/files/rock-comp-29-ara_1800x1800.jpg?v=1706095785"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Cannondale Habit HT 2 - Verde",
+        "description": "Cannondale Habit HT 2, tiene la capacidad de una Trail completa PERO cumple con la pureza y simplicidad de la Hardtail.",
+        "price": 2117.23,
+        "rating": 5,
+        "stock": 3,
+        "brand": "CANNONDALE",
+        "category": "bicicleta-enduro",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/cannondale-habit-2-verde_1800x1800.jpg?v=1691143656",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-habit-2-verde-5_1800x1800.jpg?v=1691143657",
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-habit-2-verde-4_1800x1800.jpg?v=1691143657",
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-habit-2-verde-3_1800x1800.jpg?v=1691143657",
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-habit-2-verde_1800x1800.jpg?v=1691143656"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Cannondale Trail 6 - Naranja",
+        "description": "Cannondale Trail 6, una bicicleta de montaña que genera pasión por el sendero, desde la primera vez que sales al próximo gran desafío.",
+        "price": 565.39,
+        "rating": 4.27,
+        "stock": 5,
+        "brand": "CANNONDALE",
+        "category": "bicicleta-enduro",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/products/trail-6-orange-21_1800x1800.jpg?v=1613642607",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/products/trail-6-orange-21-det3_1800x1800.jpg?v=1613642607",
+            "https://www.all4cycling.com/cdn/shop/products/trail-6-orange-21-det2_1800x1800.jpg?v=1613642607",
+            "https://www.all4cycling.com/cdn/shop/products/trail-6-orange-21-det5_1800x1800.jpg?v=1613642607",
+            "https://www.all4cycling.com/cdn/shop/products/trail-6-orange-21_1800x1800.jpg?v=1613642607"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Cannondale Scalpel HT LAB71 - Negro",
+        "description": "Cannondale Scalpel HT LAB71, un nuevo concepto de Hardtail XC, creado específicamente para marcar la diferencia cuesta arriba, dejar atrás a tus oponentes cuesta abajo y llevarte directamente al escalón más alto del podio.",
+        "price": 7861.55,
+        "rating": 4.8,
+        "stock": 2,
+        "brand": "CANNONDALE",
+        "category": "bicicleta-enduro",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/cannondale-ht-lab71_1800x1800.jpg?v=1691162478",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-ht-lab71-2_1800x1800.jpg?v=1691162480",
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-ht-lab71-7_1800x1800.jpg?v=1691162480",
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-ht-lab71-3_1800x1800.jpg?v=1691162480",
+            "https://www.all4cycling.com/cdn/shop/files/cannondale-ht-lab71_1800x1800.jpg?v=1691162478"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Specialized Epic WC Expert - Verde",
+        "description": "La Specialized Epic WC Expert es la bicicleta de carreras XC más rápida en senderos lisos, gracias a una combinación inigualable de eficiencia, control y ligereza. El campeón Christopher lo expresa así: `Esta bici me da todo lo que podría desear de una hardtail, con el control y las capacidades añadidas de una full-size`.",
+        "price": 6354.93,
+        "rating": 4.9,
+        "stock": 3,
+        "brand": "SPECIALIZED",
+        "category": "bicicleta-downhill",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/specialized-epic-wc-expert-grn-24_hr_1800x1800.jpg?v=1704726449",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-wc-expert-grn-24-s1_hr_1800x1800.jpg?v=1704726450",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-wc-expert-grn-24-s3_hr_1800x1800.jpg?v=1704726449",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-wc-expert-grn-24-s4_hr_1800x1800.jpg?v=1704726449",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-wc-expert-grn-24_hr_1800x1800.jpg?v=1704726449"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Specialized S-Works Epic - Rojo",
+        "description": "El S-Works Epic combina la eficiencia de una bicicleta rígida con capacidad de suspensión total y es el epítome de la obsesión por la velocidad. Además, evidentemente, de estar definido por más de cien victorias y podios en el Mundial.",
+        "price": 7053.86,
+        "rating": 5,
+        "stock": 2,
+        "brand": "SPECIALIZED",
+        "category": "bicicleta-downhill",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/specialized-epic-s-works-red-_hr_1800x1800.jpg?v=1698920236",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-s-works-red-s1_hr_1800x1800.jpg?v=1698920236",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-s-works-red-s3_hr_1800x1800.jpg?v=1698920235",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-s-works-red-s6_hr_1800x1800.jpg?v=1698920236",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-epic-s-works-red-_hr_1800x1800.jpg?v=1698920236"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Orbea OIZ M-TEAM AXS - Azul negro",
+        "description": "Sencillamente, la Oiz es la bicicleta de XC más rápida que ha salido de la fábrica de Orbea en más de 180 años. Eliminando todo lo superfluo, y añadiendo sólo aquello que mejora tu pedaleo, llegamos a los 1750 gramos del cuadro de la Oiz, uno de los más ligeros del mercado.",
+        "price": 6353.86,
+        "rating": 4.3,
+        "stock": 4,
+        "brand": "ORBEA",
+        "category": "bicicleta-downhill",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/oiz-23-mteam-axs-blu-23_hr_1800x1800.jpg?v=1695968480",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/DSCF5141Orbea_oiz_1800x1800.jpg?v=1695968494",
+            "https://www.all4cycling.com/cdn/shop/files/DSCF5134Orbea_oiz_1800x1800.jpg?v=1695968495",
+            "https://www.all4cycling.com/cdn/shop/files/DSCF5135Orbea_oiz_1800x1800.jpg?v=1695968494",
+            "https://www.all4cycling.com/cdn/shop/files/oiz-23-mteam-axs-blu-23_hr_1800x1800.jpg?v=1695968480"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Cannondale SuperSix EVO Hi-MOD 1 - Burdeos",
+        "description": "La nueva SuperSix EVO supera todas las expectativas. Tan ligera, rápida y aerodinámica que desafía la lógica. Una bicicleta construida para hacerte más rápido en todas partes. La velocidad ha evolucionado.",
+        "price": 11203.45,
+        "rating": 4.6,
+        "stock": 3,
+        "brand": "CANNONDALE",
+        "category": "bicicleta-competicion",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/cannonadle-hmpod-borde_1800x1800.jpg?v=1707302414",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/cannonadle-hmpod-borde-2_1800x1800.jpg?v=1707302414",
+            "https://www.all4cycling.com/cdn/shop/files/cannonadle-hmpod-borde_1800x1800.jpg?v=1707302414"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Pinarello F7 Disk Ultegra Di2 Ultra rápido - Rojo",
+        "description": "Pinarello F7 Disk Ultegra Di2. 70 años de historia y experiencia en la creación de bicicletas para los ciclistas más fuertes del mundo nos han permitido diseñar este nuevo cuadro de ultra alto rendimiento que también está disponible con múltiples tipos de fibra de carbono y diferentes montajes para llevar el rendimiento y la geometría icónicos a los ciclistas más competitivos.",
+        "price": 7325.33,
+        "rating": 4.1,
+        "stock": 3,
+        "brand": "PINARELLO",
+        "category": "bicicleta-competicion",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/bike-f7-disc-nero-rosso_1800x1800.jpg?v=1706534593",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/bike-f7-disc-nero-rosso-3_1800x1800.jpg?v=1706534593",
+            "https://www.all4cycling.com/cdn/shop/files/bike-f7-disc-nero-rosso-2_1800x1800.jpg?v=1706534593",
+            "https://www.all4cycling.com/cdn/shop/files/bike-f7-disc-nero-rosso_1800x1800.jpg?v=1706534593"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Specialized Tarmac SL7 Sport - Negro",
+        "description": "La Specialized Tarmac SL7 Sport se creó para ser rápida y es algo más que una obra maestra de la aerodinámica. El ligero cuadro Rider-First Engineered™ proporciona una excelente calidad de conducción para todos los tamaños de cuadro.",
+        "price": 3339.49,
+        "rating": 4,
+        "stock": 4,
+        "brand": "SPECIALIZED",
+        "category": "bicicleta-competicion",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/specialized-sl7-sport-blk-23_hr_1800x1800.jpg?v=1704811968",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/specialized-sl7-sport-blk-23-s1_hr_1800x1800.jpg?v=1704811969",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-sl7-sport-blk-23-s2_hr_1800x1800.jpg?v=1704811970",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-sl7-sport-blk-23_hr_1800x1800.jpg?v=1704811968"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Specialized Tarmac SL8 Pro Shimano Ultegra UDi2 - Verde",
+        "description": "Gracias a simulaciones complejas que usan datos reales, el equipo especializado de ciencias de Ride ha verificado que el Tarmac SL8 es la bicicleta de carreras más rápida en cualquier ruta: - 16.6 segundos en 40 km de llanura, 128 segundos más rápido en la ruta de Milán, 20, 20 segundos más rápido en la subida de Turmalet.",
+        "price": 7863.96,
+        "rating": 5,
+        "stock": 2,
+        "brand": "SPECIALIZED",
+        "category": "bicicleta-competicion",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/specialized-sl8-pro-grn_hr_1800x1800.jpg?v=1703158485",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/specialized-sl8-pro-grn-s2_hr_1800x1800.jpg?v=1703158485",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-sl8-pro-grn-s4_hr_1800x1800.jpg?v=1703158485",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-sl8-pro-grn-s3_hr_1800x1800.jpg?v=1703158486",
+            "https://www.all4cycling.com/cdn/shop/files/specialized-sl8-pro-grn_hr_1800x1800.jpg?v=1703158485"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Gafas Bolle Lightshifter XL - Tortoise",
+        "description": "Experimente el campo de visión en formato XL y encuentre características de alto rendimiento como el marco de nylon TR90 premium para ligereza y flexibilidad, el caucho Thermogrip® para estabilidad y una almohadilla nasal ajustable para un ajuste perfecto.",
+        "price": 78.64,
+        "rating": 3.9,
+        "stock": 6,
+        "brand": "BOLLE",
+        "category": "accesorios",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/products/bolle-lightshifter-tor-xl-21_hr_1800x1800.jpg?v=1629120799",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/products/bolle-lightshifter-tor-xl-21-s1_hr_1800x1800.jpg?v=1629120800",
+            "https://www.all4cycling.com/cdn/shop/products/bolle-lightshifter-tor-xl-21-s2_hr_1800x1800.jpg?v=1629120800",
+            "https://www.all4cycling.com/cdn/shop/products/bolle-lightshifter-tor-xl-21_hr_1800x1800.jpg?v=1629120799"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Gafas Oakley Kato - Polished black prizm black",
+        "description": "Con un diseño específicamente diseñado para seguir perfectamente los perfiles de la cara, las Oakley Kato nacen para superar los límites de rendimiento dándole un estilo absolutamente único.",
+        "price": 242.38,
+        "rating": 4.7,
+        "stock": 7,
+        "brand": "OAKLEY",
+        "category": "accesorios",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/products/oakley-kato-nero-21_1800x1800.jpg?v=1620665490",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/products/oakley-kato-nero-21-ret_1800x1800.jpg?v=1620665491",
+            "https://www.all4cycling.com/cdn/shop/products/oakley-kato-nero-21-ret2_1800x1800.jpg?v=1620665491",
+            "https://www.all4cycling.com/cdn/shop/products/oakley-kato-nero-21_1800x1800.jpg?v=1620665490"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Portabidón FSA K-FORCE - Negro",
+        "description": "Los portabidones de fibra de carbono FSA K-FORCE completan el look de tu bicicleta. El portabidón K-Force sólo pesa 28 g, pero no tiene ningún problema en sujetar un bidón lleno. Su característica forma alada garantiza un agarre firme del bidón.",
+        "price": 53,
+        "rating": 3.8,
+        "stock": 10,
+        "brand": "FSA",
+        "category": "accesorios",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/k-force.porta-borr_1800x1800.jpg?v=1707209985",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/k-force.porta-borr_1800x1800.jpg?v=1707209985"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Luz delantera Lezyne Lite Drive 1200",
+        "description": "Luz frontal Lezyne Lite Drive 1200+, experimente una iluminación y versatilidad sin precedentes con Lite Drive 1200+ Front. Con ocho LEDs, esta luz tiene una salida máxima de 1.200 lúmenes y una impresionante autonomía de 60 horas, proporcionando el mejor patrón de haz para una visibilidad óptima incluso en las condiciones más difíciles.",
+        "price": 74.33,
+        "rating": 5,
+        "stock": 8,
+        "brand": "LEZYNE",
+        "category": "accesorios",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/lite-drive-1200_1800x1800.jpg?v=1706884511",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/lite-drive-1200-2_1800x1800.jpg?v=1706884525",
+            "https://www.all4cycling.com/cdn/shop/files/lite-drive-1200-5_1800x1800.jpg?v=1706884525",
+            "https://www.all4cycling.com/cdn/shop/files/lite-drive-1200-6_1800x1800.jpg?v=1706884525",
+            "https://www.all4cycling.com/cdn/shop/files/lite-drive-1200_1800x1800.jpg?v=1706884511"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Luz delantera Lezyne Classic Drive XL 700",
+        "description": "Una luz de bicicleta clásica con un toque moderno, la luz delantera Classic Drive XL 700+ emite 700 lúmenes (hasta 45 horas de duración de la batería) a través de un único emisor LED de alto rendimiento. Está construida alrededor de una elegante carcasa cilíndrica que ofrece un factor de forma compacto y ligero.",
+        "price": 61.40,
+        "rating": 4.3,
+        "stock": 10,
+        "brand": "LEZYNE",
+        "category": "accesorios",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/lezine-700piu_1800x1800.jpg?v=1706883744",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/lezine-700piu-2_1800x1800.jpg?v=1706883750",
+            "https://www.all4cycling.com/cdn/shop/files/lezine-700piu-4_1800x1800.jpg?v=1706883750",
+            "https://www.all4cycling.com/cdn/shop/files/lezine-700piu-5_1800x1800.jpg?v=1706883750",
+            "https://www.all4cycling.com/cdn/shop/files/lezine-700piu_1800x1800.jpg?v=1706883744"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Bolsa de sillín Muc-off - Negra",
+        "description": "La alforja Muc-off es tu compañera definitiva, tanto para el camino como para la carretera. Fabricada con materiales de alta calidad y resistentes a la intemperie, la alforja está hecha para soportar las condiciones más exigentes, manteniendo tus objetos esenciales a salvo sea cual sea el viaje que te espera.",
+        "price": 43.09,
+        "rating": 4.8,
+        "stock": 12,
+        "brand": "MUC-OFF",
+        "category": "accesorios",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/files/sadle-pack-muc-off_1800x1800.jpg?v=1706706508",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/files/sadle-pack-muc-off-2_1800x1800.jpg?v=1706706516",
+            "https://www.all4cycling.com/cdn/shop/files/sadle-pack-muc-off-4_1800x1800.jpg?v=1706706516",
+            "https://www.all4cycling.com/cdn/shop/files/sadle-pack-muc-off-3_1800x1800.jpg?v=1706706516",
+            "https://www.all4cycling.com/cdn/shop/files/sadle-pack-muc-off_1800x1800.jpg?v=1706706508"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Casco Endura Hummvee Plus - Negro",
+        "description": "Casco Endura Hummvee Plus, diseño versátil ideal para el centro de senderos, el crucero por carretera o el pendularismo urbano en la oficina. La red integrada de errores se mantiene fuera de los invitados no deseados.",
+        "price": 47.40,
+        "rating": 4.4,
+        "stock": 5,
+        "brand": "ENDURA",
+        "category": "cascos",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/products/humme-pro-nero-22_1800x1800.jpg?v=1653557608",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/products/humme-pro-nero-22-2_1800x1800.jpg?v=1653557608",
+            "https://www.all4cycling.com/cdn/shop/products/humme-pro-nero-22_1800x1800.jpg?v=1653557608"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Casco Abus Viantor - Negro",
+        "description": "Este casco es un casco para principiantes ligero y de calidad, en el que ABUS ha empleado numerosas tecnologías aprobadas por profesionales.",
+        "price": 79.72,
+        "rating": 3.9,
+        "stock": 10,
+        "brand": "ABUS",
+        "category": "cascos",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/products/abus-viantor-helm-blck-18_hr_1800x1800.jpg?v=1612466743",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/products/abus-viantor-helm-blck-18fr_1800x1800.jpg?v=1612466743",
+            "https://www.all4cycling.com/cdn/shop/products/abus-viantor-helm-blck-18bk_1800x1800.jpg?v=1612466743",
+            "https://www.all4cycling.com/cdn/shop/products/abus-viantor-helm-blck-18_hr_1800x1800.jpg?v=1612466743"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Casco Abus Powerdome - Violeta",
+        "description": "Con el casco PowerDome, ABUS amplía su gama de cascos de bicicleta de carretera `Made in Italy`. Como patria del ciclismo, este casco ligero es sinónimo de `Dolce Vita` y claro ADN de carreras. PowerDome proviene directamente de la producción de ABUS en Italia.",
+        "price": 105.57,
+        "rating": 4.8,
+        "stock": 8,
+        "brand": "ABUS",
+        "category": "cascos",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/products/abus-powerdome-vio-22_hr_1800x1800.jpg?v=1668180614",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/products/abus-powerdome-vio-22-s1_hr_1800x1800.jpg?v=1668180615",
+            "https://www.all4cycling.com/cdn/shop/products/abus-powerdome-vio-22-s2_hr_1800x1800.jpg?v=1668180615",
+            "https://www.all4cycling.com/cdn/shop/products/abus-powerdome-vio-22_hr_1800x1800.jpg?v=1668180614"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Casco Bluegrass Rogue - Gris",
+        "description": "El casco Bluegrass Rogue se diseñó teniendo en cuenta la velocidad de los ciclistas profesionales y, al mismo tiempo, protege adecuadamente las zonas más sensibles de la cabeza, la espalda y las sienes.",
+        "price": 87.26,
+        "rating": 4.8,
+        "stock": 9,
+        "brand": "BLUEGRASS",
+        "category": "cascos",
+        "thumbnail": "https://www.all4cycling.com/cdn/shop/products/bluegrass-rogue-gry-23_hr_1800x1800.jpg?v=1678780042",
+        "image": [
+            "https://www.all4cycling.com/cdn/shop/products/bluegrass-rogue-gry-23_hr_1800x1800.jpg?v=1678780042",
+            "https://www.all4cycling.com/cdn/shop/products/bluegrass-rogue-gry-23-s2_hr_1800x1800.jpg?v=1678780043",
+            "https://www.all4cycling.com/cdn/shop/products/bluegrass-rogue-gry-23-s3_hr_1800x1800.jpg?v=1678780043",
+            "https://www.all4cycling.com/cdn/shop/products/bluegrass-rogue-gry-23_hr_1800x1800.jpg?v=1678780042"
+        ]
+    }
+]
