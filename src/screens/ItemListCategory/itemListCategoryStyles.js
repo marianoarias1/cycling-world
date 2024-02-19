@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { colors } from "../../global/colors";
 
 
 export const itemListCategoryStyles = StyleSheet.create({
@@ -7,5 +8,6 @@ export const itemListCategoryStyles = StyleSheet.create({
       width: "100%",
       justifyContent: "center",
       alignItems: "center",
+
     },
   });

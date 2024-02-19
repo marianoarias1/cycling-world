@@ -1,11 +1,12 @@
 import { StyleSheet } from "react-native";
+import { colors } from "../../global/colors";
 
 
 export const headerStyles = StyleSheet.create({
     container: {
-      height: 70,
+      height: 100,
       width: "100%",
-      backgroundColor: 'black',
+      backgroundColor: colors.secondaryColor,
       justifyContent: "center",
       alignItems: "center",
     },

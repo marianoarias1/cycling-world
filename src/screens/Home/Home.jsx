@@ -1,14 +1,16 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import { Header } from '../../components/Header/Header'
+
 import { homeStyles } from './homeStyles'
+import { ItemListCategory } from '../ItemListCategory/ItemListCategory'
 import { Categories } from '../../components/Categories/Categories'
 
-export const Home = ({setCategorySelected}) => {
+export const Home = ({navigation, route}) => {
+
   return (
     <View style={homeStyles.container}>
-      <Header title={'Inicio'}/>
-      <Categories setCategorySelected={setCategorySelected}/>
+      <Categories navigation={navigation} route={route}/>
+      <ItemListCategory navigation={navigation}/>
     </View>
   )
 }

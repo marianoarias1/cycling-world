@@ -6,38 +6,29 @@ import { Home } from './src/screens/Home/Home';
 import { useState } from 'react';
 import { ItemListCategory } from './src/screens/ItemListCategory/ItemListCategory';
 import {fonts} from './src/global/fonts'
+import { colors } from './src/global/colors';
+import { ItemDetail } from './src/screens/ItemDetail/ItemDetail';
+import { Navigator } from './src/navigation/Navigator';
 
 export default function App() {
   const [fontsLoaded] = useFonts(fonts);
   const [categorySelected, setCategorySelected] = useState('');
+  const [productDetailId, setProductDetailId] = useState(null);
 
   if(!fontsLoaded){
     return null
   }
 
-  return (
-    <View style={styles.container}>
-      {
-        categorySelected ? 
-        (
-          <ItemListCategory category={categorySelected}/>
-        )
-          :
-        (
-          <Home setCategorySelected={setCategorySelected}/> 
-        )
-      }
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Navigator/>
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight + 20
+    paddingTop: Constants.statusBarHeight + 20,
+    backgroundColor: colors.bgColor
+
   },
 });
