@@ -1,32 +1,36 @@
 import { View, Text, FlatList, Pressable } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import allProducts from '../../data/products.json'
 import { itemListCategoryStyles } from './itemListCategoryStyles'
 import { Search } from '../../components/Search/Search'
 import { PorductItem } from '../../components/ProductItem/PorductItem'
-import { Categories } from '../../components/Categories/Categories'
+import { useDispatch, useSelector } from 'react-redux'
+import { setCategorySelected } from '../../features/shop/shopSlice'
 
 export const ItemListCategory = ({ navigation, route}) => {
-    const [product, setProduct] = useState([])
-    const [keyWord, setKeyWord] = useState('')
+    const dispatch= useDispatch()
+    const [product, setProducts] = useState([])
+    const [keyword, setKeyWord] = useState('')
+    const productsFilteredByCategory = useSelector(
+      (state) => state.shopReducer.value.productsFilteredByCategory
+    );
+    const categorySelected =useSelector((state)=> state.shopReducer.value.categorySelected)
+    const allProducts = useSelector((state)=> state.shopReducer.value.products)
+    
+    useEffect(() => {
+      if(!categorySelected){
+        const productsFiltered = allProducts.filter((product)=> product.category.includes(keyword) || product.title.toLowerCase().includes(keyword.toLowerCase()))
+        setProducts(productsFiltered)
+      }else{
+        const productsFiltered = productsFilteredByCategory.filter((product)=> product.category.includes(keyword) || product.title.toLowerCase().includes(keyword.toLowerCase()))
+        setProducts(productsFiltered)
+      }
+    }, [productsFilteredByCategory, keyword]);
 
-    const {category} = route?.params ? route?.params : 'all'
-    useEffect(()=>{
-        if(category){
-            const products = allProducts.filter((prod)=> prod.category === category);
-            const filteredProd = products.filter((product)=> product.category.includes(keyWord) || product.title.toLowerCase().includes(keyWord.toLowerCase()));
-            setProduct(filteredProd);
-
-        }
-        else{
-            const filteredProd= allProducts.filter((prod)=> prod.category.includes(keyWord) || prod.title.toLowerCase().includes(keyWord.toLowerCase()));
-            setProduct(filteredProd);
-        }
-    },[category, keyWord])
   return (
     <View style={itemListCategoryStyles.container}>
       <Pressable onPress={()=>{
-        setKeyWord('')}}>
+        dispatch(setCategorySelected(''))
+       }}>
         <Text>Inicio</Text>
       </Pressable>
       

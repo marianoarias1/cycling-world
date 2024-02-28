@@ -1,18 +1,16 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { NavigationContainer } from '@react-navigation/native';
 import {Home} from '../screens/Home/Home'
 import {ItemDetail} from '../screens/ItemDetail/ItemDetail'
 import {ItemListCategory} from '../screens/ItemListCategory/ItemListCategory'
 import { Header } from '../components/Header/Header'
 
-export const Navigator = () => {
+export const ShopStack = () => {
     const Stack = createNativeStackNavigator();
 
     return (
-        <NavigationContainer>
             <Stack.Navigator
-                initialRouteName='Cycling World'
+                initialRouteName='Home'
                 screenOptions={({ route }) => ({
                     header: () => {
                       return (
@@ -33,6 +31,5 @@ export const Navigator = () => {
                 <Stack.Screen name="ItemListCategory" component={ItemListCategory}/>
                 <Stack.Screen name="ItemDetail" component={ItemDetail}/>
             </Stack.Navigator>
-        </NavigationContainer>
     )
 }

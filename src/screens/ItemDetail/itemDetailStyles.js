@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
         height: '50%',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        marginTop:20
+        marginTop:5
     },
     card:{
         shadowColor: "#000000",
@@ -33,8 +33,8 @@ export const styles = StyleSheet.create({
         elevation: 7
     },
     image: {
-        width: 250,
-        height: 250,
+        width: 240,
+        height: 240,
         borderRadius: 10,
         objectFit:'contain'
     },

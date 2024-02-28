@@ -1,9 +1,10 @@
-import { View, Text, Image, Pressable } from 'react-native'
-import React from 'react'
+import { View, Text, Image, Pressable, useWindowDimensions } from 'react-native'
+import React, { useEffect, useState } from 'react'
 import { Card } from '../Card/Card'
 import { productItemStyles } from './productItemStyles'
 
 export const PorductItem = ({product, navigation}) => {
+
   return (
     <Pressable onPress={()=>navigation.navigate("ItemDetail",{id: product.id})} >
     <Card style={productItemStyles.cardStyles}>

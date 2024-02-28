@@ -4,10 +4,10 @@ import { colors } from "../../global/colors";
 
 export const headerStyles = StyleSheet.create({
     container: {
-      height: 100,
+      height: 40,
       width: "100%",
       backgroundColor: colors.secondaryColor,
-      justifyContent: "center",
+      justifyContent: "flex-start",
       alignItems: "center",
     },
     text: {
