@@ -10,7 +10,7 @@ import { colors } from '../../global/colors';
 import { insertSession } from '../../db';
 
 
-export const Login = () => {
+export const Login = ({navigation}) => {
   const [email, setEmail] = useState("");
   const [errorMail, setErrorMail] = useState("");
   const [password, setPassword] = useState("");
