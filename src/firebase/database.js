@@ -1,0 +1,1 @@
+export const base_url= "https://cycling-world-b019f-default-rtdb.firebaseio.com/"

@@ -2,12 +2,19 @@ import { View, Text, Image, Pressable, FlatList } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import allProducts from '../../data/products.json'
 import { styles } from './itemDetailStyles';
+import { useDispatch } from 'react-redux';
+import { addItem } from '../../features/shop/cartSilce';
 
 export const ItemDetail = ({ navigation, route }) => {
     const [product, setProduct] = useState(null)
     const [image, setImage] = useState('')
     const { id } = route.params
+    const dispatch =useDispatch()
 
+    const onAddCart=()=>{
+        dispatch(addItem({...product, quantity: 1}))
+
+    }
     useEffect(() => {
         const findProduct = allProducts.find((prod) => prod.id === id);
         setProduct(findProduct);
@@ -49,11 +56,12 @@ export const ItemDetail = ({ navigation, route }) => {
                         <Text style={styles.desc}>{product.description}</Text>
                         <Text style={styles.price}>${product.price}</Text>
                         <Pressable
+                            onPress={onAddCart}
                             style={styles.button}
                         >
                             <Text
                                 style={styles.buyNow}
-                            >Buy now</Text>
+                            >AGREGAR</Text>
                         </Pressable>
                     </View>
                 </View>
