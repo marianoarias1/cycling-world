@@ -45,7 +45,6 @@ export const LocationSelector = () => {
       }, [location]);
     
       const onConfirmAddress = () => {
-        console.log(address);
         const locationFormatted = {
           latitude: location.latitude,
           longitude: location.longitude,

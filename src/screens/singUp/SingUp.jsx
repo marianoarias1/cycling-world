@@ -31,9 +31,7 @@ export const SingUp = ({navigation}) => {
 
             signupSchema.validateSync({ password, confirmPassword, email });
             triggerSignup({ email, password });
-            console.log("Registro exitoso");
         } catch (err) {
-            console.log("path", err.path);
             switch (err.path) {
                 case "email":
                     setErrorMail(err.message);

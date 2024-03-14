@@ -7,6 +7,7 @@ import { setUser } from '../../features/auth/authSlice';
 import { loginSchema } from '../../validations/loginSchema';
 import { SubmitButton } from '../../components/submitButton/SubmitButton';
 import { colors } from '../../global/colors';
+import { insertSession } from '../../db';
 
 
 export const Login = () => {
@@ -21,6 +22,13 @@ export const Login = () => {
   useEffect(() => {
     if (result.data) {
       dispatch(setUser(result.data));
+      insertSession({
+        email: result.data.email,
+        localId: result.data.localId,
+        token: result.data.idToken
+      })
+      .then((res)=> console.log(res))
+      .catch((err)=> console.log(err))
     }
   }, [result]);
 
