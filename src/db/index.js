@@ -18,9 +18,9 @@ export const init = () => {
     return promise
 };
 
-export const insertSession=({email,localId, token})=>{
-    const promise= new Promise((resolve, reject)=>{
-        db.transaction((tx)=>{
+export const insertSession = ({ email, localId, token }) => {
+    const promise = new Promise((resolve, reject) => {
+        db.transaction((tx) => {
             tx.executeSql(
                 "INSERT INTO sessions (email, localId, token) VALUES (?, ?, ?);",
                 [email, localId, token],
@@ -36,38 +36,38 @@ export const insertSession=({email,localId, token})=>{
     return promise
 }
 
-export const fetchSessions=()=>{
-    const promise = new Promise ((resolve, reject)=>{
-        db.transaction((tx)=>{
+export const fetchSessions = () => {
+    const promise = new Promise((resolve, reject) => {
+        db.transaction((tx) => {
             tx.executeSql(
-                'SELECT * FROM sessions'
-            ),
-            [],
-            (_, result) => {
-                return resolve(result)
-            },
-            (_, error) => {
-                return reject(error)
-            }
+                'SELECT * FROM sessions',
+                [],
+                (_, result) => {
+                    return resolve(result)
+                },
+                (_, error) => {
+                    return reject(error)
+                }
+            )
         })
     })
     return promise
 }
 
 
-export const deleteSessions=({localId})=>{
-    const promise = new Promise ((resolve, reject)=>{
-        db.transaction((tx)=>{
+export const deleteSessions = ({ localId }) => {
+    const promise = new Promise((resolve, reject) => {
+        db.transaction((tx) => {
             tx.executeSql(
-                'DELETE FROM sessions WHERE localId = ?'
-            ),
-            [localId],
-            (_, result) => {
-                return resolve(result)
-            },
-            (_, error) => {
-                return reject(error)
-            }
+                'DELETE FROM sessions WHERE localId = ?',
+                [localId],
+                (_, result) => {
+                    return resolve(result)
+                },
+                (_, error) => {
+                    return reject(error)
+                }
+            )
         })
     })
     return promise
