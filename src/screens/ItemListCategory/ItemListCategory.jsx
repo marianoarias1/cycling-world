@@ -11,28 +11,24 @@ export const ItemListCategory = ({ navigation, route }) => {
   const dispatch = useDispatch()
   const [product, setProducts] = useState([])
   const [keyword, setKeyWord] = useState('')
-  // const productsFilteredByCategory = useSelector(
-  //   (state) => state.shopReducer.value.productsFilteredByCategory
-  // );
 
-  //const allProducts = useSelector((state) => state.shopReducer.value.products)
-
-  const categorySelected = useSelector((state) => state.shopReducer.value.categorySelected)
-
-  const { data: productsFilteredByCategory, isLoading, error } = useGetProductsByCategoryQuery(categorySelected)
-
-  // const {data: allProducts, isLoading: isLoadingAllProd, error: errorAllProd} = useGetProductsQuery()
-
+  const category = useSelector((state) => state.shopReducer.value.categorySelected);
+  const { data: productsFilteredByCategory, isLoading, error } = useGetProductsByCategoryQuery(category)
+  const { data: allProducts, isLoading: allPorductsLoading, error: allProductsError } = useGetProductsQuery()
   useEffect(() => {
-    if (productsFilteredByCategory) {
+    if (category && productsFilteredByCategory) {
       const productsRaw = Object.values(productsFilteredByCategory)
       const productsFiltered = productsRaw.filter((product) =>
-        product.title.includes(keyword)
+        product.title.toLowerCase().includes(keyword.toLowerCase()) ||
+        product?.category == (category)
       );
       setProducts(productsFiltered);
     }
+    else{
+      setProducts(allProducts)
+    }
 
-  }, [productsFilteredByCategory, keyword]);
+  }, [productsFilteredByCategory, keyword,category,allProducts]);
 
   return (
     <View style={itemListCategoryStyles.container}>
