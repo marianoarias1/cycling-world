@@ -19,7 +19,15 @@ export const CategoryItem = ({ category, navigation }) => {
         }}
       >
 
-        <Text style={categoryItemstyles.text}>{category}</Text>
+        {
+          categories.map((e) => e.title == category ? 
+          <Text style={categoryItemstyles.text} key={e.title}>
+            {e.icon}
+          </Text>
+          : 
+          null)
+        }
+        
       </Pressable>
     </Card>
   )

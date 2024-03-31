@@ -18,14 +18,13 @@ export const Header = ({ title }) => {
     <View style={headerStyles.container}>
       <Text style={headerStyles.text}>{title}</Text>
       {user ? (
-        <Pressable onPress={onLogout}>
+        <Pressable style={headerStyles.buttonLogout} onPress={onLogout}>
           <MaterialIcons name="logout" size={24} color="white" />
         </Pressable>
       )
       :
       null
     }
-
     </View>
   )
 }

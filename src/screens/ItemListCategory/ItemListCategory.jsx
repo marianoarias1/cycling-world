@@ -6,6 +6,8 @@ import { PorductItem } from '../../components/ProductItem/PorductItem'
 import { useDispatch, useSelector } from 'react-redux'
 import { setCategorySelected } from '../../features/shop/shopSlice'
 import { useGetProductsByCategoryQuery, useGetProductsQuery } from '../../services/shopService'
+import { AntDesign } from '@expo/vector-icons';
+
 
 export const ItemListCategory = ({ navigation, route }) => {
   const dispatch = useDispatch()
@@ -20,24 +22,42 @@ export const ItemListCategory = ({ navigation, route }) => {
       const productsRaw = Object.values(productsFilteredByCategory)
       const productsFiltered = productsRaw.filter((product) =>
         product.title.toLowerCase().includes(keyword.toLowerCase()) ||
+        product.brand.toLowerCase().includes(keyword.toLowerCase()) ||
+        product?.category.toLowerCase().includes(keyword.toLowerCase()) ||
         product?.category == (category)
       );
       setProducts(productsFiltered);
     }
-    else{
-      setProducts(allProducts)
+    else {
+      if (keyword !== '') {
+        const productsRaw = Object.values(allProducts)
+        const productsFiltered = productsRaw.filter((product) =>
+          product.title.toLowerCase().includes(keyword.toLowerCase()) ||
+          product.brand.toLowerCase().includes(keyword.toLowerCase()) ||
+          product?.category.toLowerCase().includes(keyword.toLowerCase()) ||
+          product?.category == (category)
+        );
+        setProducts(productsFiltered)
+      }
+      else {
+        setProducts(allProducts)
+      }
     }
-
-  }, [productsFilteredByCategory, keyword,category,allProducts]);
+  }, [productsFilteredByCategory, keyword, category, allProducts]);
 
   return (
     <View style={itemListCategoryStyles.container}>
-      <Pressable onPress={() => {
-        dispatch(setCategorySelected(''))
-      }}>
-        <Text>Inicio</Text>
-      </Pressable>
-
+      {
+        category ? 
+        <Pressable onPress={() => {
+          navigation.navigate("Home")
+          dispatch(setCategorySelected(''))
+        }}>
+          <AntDesign name="home" size={24} color="black" />
+        </Pressable>
+        :
+        null
+      }
       <Search onSearch={setKeyWord} />
 
       <FlatList

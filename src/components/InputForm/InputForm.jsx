@@ -1,5 +1,6 @@
 import { View, Text, TextInput } from 'react-native'
 import React, { useState } from 'react'
+import { inputStyles } from './inputStyles'
 
 export const InputForm = ({label,error, onChange, isSecure}) => {
     const [input, setInput] = useState("")
@@ -11,12 +12,12 @@ export const InputForm = ({label,error, onChange, isSecure}) => {
 
 
   return (
-    <View>
-      <Text>{label}</Text>
-      <TextInput value={input} onChangeText={onChangeText} secureTextEntry={isSecure}/>
+    <View style={inputStyles.inputContainer}>
+      <Text style={inputStyles.subtitle}>{label}</Text>
+      <TextInput value={input} onChangeText={onChangeText} secureTextEntry={isSecure} style={inputStyles.input}/>
       {
         error ? (
-            <Text>
+            <Text style={inputStyles.error}>
                 {error}
             </Text>
         )

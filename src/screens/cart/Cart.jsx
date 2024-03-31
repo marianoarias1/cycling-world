@@ -4,6 +4,7 @@ import allCartItems from "../../data/cart.json"
 import { CartItem } from '../../components/cartItem/CartItem'
 import { useSelector } from 'react-redux'
 import { usePostOrderMutation } from '../../services/shopService'
+import { cartStyles } from './cartStyles'
 
 
 export const Cart = () => {
@@ -23,19 +24,22 @@ export const Cart = () => {
       triggerPost({total, cartItems, user: "loggedUser"})
     }
   return (
-    <View>
-      <FlatList
-      data={cartItems}
-      renderItem={({item})=>(
-        <CartItem item={item}/>
+    <View style={cartStyles.container}>
+      {cartItems.length > 0 ? (
+        <View style={cartStyles.container}>
+          <FlatList
+            data={cartItems}
+            renderItem={({ item }) => <CartItem item={item} />}
+            keyExtractor={(cartItem) => cartItem.id}
+          />
+          <Text>Total: ${total}</Text>
+          <Pressable onPress={confirmCart}>
+            <Text>Enviar orden</Text>
+          </Pressable>
+        </View>
+      ) : (
+        <Text style={cartStyles.notProducts}>No hay productos agregados</Text>
       )}
-      keyExtractor={(item)=> item.id}
-      />
-      <Text>Total: ${total}</Text>
-
-      <Pressable onPress={confirmCart}>
-        <Text>Enviar orden</Text>
-      </Pressable>
     </View>
   )
 }

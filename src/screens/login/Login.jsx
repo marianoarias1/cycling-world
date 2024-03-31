@@ -8,9 +8,10 @@ import { loginSchema } from '../../validations/loginSchema';
 import { SubmitButton } from '../../components/submitButton/SubmitButton';
 import { colors } from '../../global/colors';
 import { insertSession } from '../../db';
+import { loginStyles } from './loginStyles';
 
 
-export const Login = ({navigation}) => {
+export const Login = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [errorMail, setErrorMail] = useState("");
   const [password, setPassword] = useState("");
@@ -27,8 +28,8 @@ export const Login = ({navigation}) => {
         localId: result.data.localId,
         token: result.data.idToken
       })
-      .then((res)=> console.log(res))
-      .catch((err)=> console.log(err))
+        .then((res) => console.log(res))
+        .catch((err) => console.log(err))
     }
   }, [result]);
 
@@ -50,23 +51,27 @@ export const Login = ({navigation}) => {
     }
   };
   return (
-   <View>
-      <Text>Login</Text>
-      <InputForm label={"Email"} error={errorMail} onChange={setEmail} />
-      <InputForm
-        label={"Password"}
-        error={errorPassword}
-        onChange={setPassword}
-        isSecure={true}
-      />
-      <Pressable onPress={() => navigation.navigate("SingUp")}>
-        <Text>Ir al registro</Text>
-      </Pressable>
-      {result.isLoading ? (
-        <ActivityIndicator size="large" color={colors.activeColor} />
-      ) : (
-        <SubmitButton title={"Login"} onPress={onSubmit} />
-      )}
+    <View style={loginStyles.container}>
+      <View style={loginStyles.cardContainer}>
+        <Text style={loginStyles.textStyles}>Login</Text>
+        <InputForm label={"Email"} error={errorMail} onChange={setEmail} />
+        <InputForm
+          label={"Password"}
+          error={errorPassword}
+          onChange={setPassword}
+          isSecure={true}
+        />
+        {result.isLoading ? (
+          <ActivityIndicator size="large" color={colors.activeColor} />
+        ) : (
+          <SubmitButton title={"Login"} onPress={onSubmit} />
+        )}
+
+        <Pressable onPress={() => navigation.navigate("SingUp")}>
+          <Text style={loginStyles.textStyles}>Registrarse</Text>
+        </Pressable>
+      </View>
+
     </View>
   )
 }

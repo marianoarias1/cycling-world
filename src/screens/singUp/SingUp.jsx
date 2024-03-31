@@ -6,10 +6,11 @@ import { useDispatch } from 'react-redux'
 import { setUser } from '../../features/auth/authSlice'
 import { signupSchema } from '../../validations/signupSchema'
 import { InputForm } from '../../components/InputForm/InputForm'
+import { singUpStyles } from './singUpStyles'
 
 
 
-export const SingUp = ({navigation}) => {
+export const SingUp = ({ navigation }) => {
     const onChange = () => { }
     const [email, setEmail] = useState('')
     const [errorMail, setErrorMail] = useState("");
@@ -54,15 +55,18 @@ export const SingUp = ({navigation}) => {
         }
     }, [result])
     return (
-        <View>
-            <Text>Register</Text>
-            <InputForm label={"email"} error={errorMail} onChange={setEmail} />
-            <InputForm label={"password"} error={errorPassword} onChange={setPassword} isSecure={true} />
-            <InputForm label={"confirmar password"} error={errorConfirmPassword} onChange={setConfirmPassword} isSecure={true} />
-            <Pressable onPress={() => navigation.navigate("Login")}>
-                <Text>Ir al login</Text>
-            </Pressable>
-            <SubmitButton title={"Registrarse"} onPress={onSubmit} />
+        <View style={singUpStyles.container}>
+            <View style={singUpStyles.cardContainer}>
+                <Text style={singUpStyles.textStyles}>Register</Text>
+                <InputForm label={"email"} error={errorMail} onChange={setEmail} />
+                <InputForm label={"password"} error={errorPassword} onChange={setPassword} isSecure={true} />
+                <InputForm label={"confirmar password"} error={errorConfirmPassword} onChange={setConfirmPassword} isSecure={true} />
+                <Pressable onPress={() => navigation.navigate("Login")}>
+                    <Text style={singUpStyles.textStyles}>Ya tengo una cuenta</Text>
+                </Pressable>
+                <SubmitButton title={"Registrarse"} onPress={onSubmit} />
+            </View>
+
         </View>
     )
 }

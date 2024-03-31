@@ -1,22 +1,22 @@
 import { View, Text, TextInput, Pressable } from 'react-native'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AntDesign } from "@expo/vector-icons";
 import { Entypo } from "@expo/vector-icons";
 import { searchStyles } from './searchStyles';
 
-export const Search = ({onSearch}) => {
-    const [input, setInput] = useState('')
+export const Search = ({ onSearch }) => {
+  const [input, setInput] = useState('')
 
-    const handleSearch=()=>{
-        if(input){
-            onSearch(input);
-        }
+  const handleSearch = () => {
+    if (input) {
+      onSearch(input);
     }
+  }
 
-    const clearInput=()=>{
-        setInput('')
-    }
-
+  const clearInput = () => {
+    setInput('')
+    onSearch('')
+  }
   return (
     <View style={searchStyles.container}>
       <View style={searchStyles.inputContainer}>

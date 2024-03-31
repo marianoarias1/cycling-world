@@ -63,6 +63,9 @@ export const styles = StyleSheet.create({
         textAlign:'center',
         color: colors.textColor
     },
+    descContainer:{
+        maxHeight: 80,
+    },
     desc:{
         fontFamily:'InterRegular',
         fontSize:15,

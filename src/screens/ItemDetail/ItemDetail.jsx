@@ -1,4 +1,4 @@
-import { View, Text, Image, Pressable, FlatList } from 'react-native'
+import { View, Text, Image, Pressable, FlatList, ScrollView } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import allProducts from '../../data/products.json'
 import { styles } from './itemDetailStyles';
@@ -53,7 +53,9 @@ export const ItemDetail = ({ navigation, route }) => {
                     </View>
                     <View style={styles.textContainer}>
                         <Text style={styles.title}>{product.title}</Text>
+                        <ScrollView style={styles.descContainer}>
                         <Text style={styles.desc}>{product.description}</Text>
+                        </ScrollView>
                         <Text style={styles.price}>${product.price}</Text>
                         <Pressable
                             onPress={onAddCart}

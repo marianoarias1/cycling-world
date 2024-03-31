@@ -1,9 +1,7 @@
-import { View, Text, FlatList } from 'react-native'
-import React, { useState } from 'react'
+import { View, FlatList } from 'react-native'
+import React from 'react'
 import { CategoryItem } from '../CategoryItem/CategoryItem'
 import { categoriesStyles } from './CategoriesStyles'
-import { useSelector } from 'react-redux'
-import Counter from '../counter/Counter'
 import { useGetCategoriesQuery } from '../../services/shopService'
 
 
@@ -13,7 +11,6 @@ export const Categories = ({navigation}) => {
   const {data, isLoading, error} = useGetCategoriesQuery();
   return (
     <View style={categoriesStyles.container}>
-      <Counter/>
       <FlatList
       horizontal={true}
         data={data}
